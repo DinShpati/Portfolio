@@ -166,7 +166,13 @@ nav{
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
+.fa-heart-o{
+-ms-transform: rotate(50deg); /* IE 9 */
+-webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
+transform: rotate(50deg);
+font-style:bold;
 
+}
 
 
 
