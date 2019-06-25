@@ -58,7 +58,15 @@ header {
 /*end carousel*/
 #wik{
     background-color: wheat;
+    padding-left: 10%;
+    padding-right: 0%;
+    width: 100%;
     
+}
+@media(max-width: 900px){
+    #wik{
+            padding-left: 0%;
+        }
 }
 .i{
     text-align:center;
@@ -82,6 +90,7 @@ nav{
 .items{
     color:black;
     font-size:15px;
+    transition: .5s;
 }
 .zoom-img{
 }
@@ -102,6 +111,7 @@ nav{
 .blue{
     color:black;
     border: 1px solid black;
+    transition: .3s ease-in;
 }
 .blue:hover{
     color:#77bbdb;
@@ -140,11 +150,16 @@ nav{
     transition: 0.9s; 
     
 }
+.light-gray{
+    color: rgba(0,0,0, 0.7);
+    font-size: 15px;
+    
+}
 #btn1{
     border:3px solid black;
     border-radius:30px;
     color:black;
-    
+    transition: width 2s ease-in-out;
 }
 #btn1:hover{
     /*background-color:black;
@@ -207,6 +222,23 @@ font-style:bold;
     }
 }
 
+/* Cards*/
+.lang_img{
+   width: 170px;
+}
+.lang_card{
+    border: 1px solid white;
+    padding: 40px  20px;
+    color: black;
+    margin-right: 10px;
+    height: 450px;
+}
+.card-header{
+    font-size: 20px;
+}
+.info-container{
+    padding-top: 50px;
+}
 /*llllll    llll  llll
   ll   ll   llll  lllllllllll
   ll   ll         lllllllllll
