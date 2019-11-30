@@ -85,14 +85,11 @@ header {
 }
 nav{
     text-align:center;
-    
 }
 .items{
     color:black;
     font-size:15px;
     transition: .5s;
-}
-.zoom-img{
 }
 .items:hover{
     color:#77bbdb;
@@ -181,8 +178,6 @@ nav{
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
 }
-#contact{
-}
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -231,7 +226,7 @@ font-style:bold;
     padding: 40px  20px;
     color: black;
     margin-right: 10px;
-    height: 450px;
+    height: 350px;
 }
 .card-header{
     font-size: 20px;
