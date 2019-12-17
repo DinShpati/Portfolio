@@ -8,31 +8,33 @@
     <title>Portfolio</title>
 
     <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/939c3b7b3f.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#webDvlpment">Web Development</a>
-            </li>
-            <li>
-                <a href="#java">Java Programs</a>
-            </li>
-            <li>
-                <a href="#python">Python Programs</a>
-            </li>
-            <li>
-                <a href="#msSQL">Database Projects</a>
-            </li>
-            <li>
-                <a href="#modileApps">Mobile Apps</a>
-            </li>
-        </ul>
+    <nav id="nav" class="nav">
+
+        <div class="return">
+            <a href="index.html"><span style='font-size:30px;'>&#8617;</span> Return</a>
+        </div>
+        <a href="#webDvlpment">Web Development</a>
+         
+        <a href="#java">Java Programs</a>
+          
+        <a href="#python">Python Programs</a>
+            
+        <a href="#msSQL">Database Projects</a>
+           
+        <a href="#modileApps">Mobile Apps</a>
+          
+            
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </nav>
 
     <div id="return">
-        <a href="../"><span style='font-size:30px;'>&#8617;</span> Return</a>
+        <a href="index.html"><span style='font-size:30px;'>&#8617;</span> Return</a>
     </div>
 
     <div id="welcome">
@@ -59,20 +61,20 @@
                     <h2 class="grid-header">New England Shea Butter</h2>
                     <p>Ecommerce website build for NESB, a skin care comapny</p>
                 </div>
-                <div class="grid-item">
-                        <!--<a href="https://nesheabutter.com/">
+                <!--<div class="grid-item">
+                        <a href="https://nesheabutter.com/">
                             <img src="img/nesb.PNG" alt="New England Shea Butter"/>
                         </a>
                         <h2 class="grid-header">New England Shea Butter</h2>
-                        <p>Ecommerce website build for NESB, a skin care comapny</p>-->
+                        <p>Ecommerce website build for NESB, a skin care comapny</p>
                 </div>
                 <div class="grid-item">
-                            <!--<a href="https://nesheabutter.com/">
+                            <a href="https://nesheabutter.com/">
                                 <img src="img/nesb.PNG" alt="New England Shea Butter"/>
                             </a>
                             <h2 class="grid-header">New England Shea Butter</h2>
-                            <p>Ecommerce website build for NESB, a skin care comapny</p>-->
-                </div>
+                            <p>Ecommerce website build for NESB, a skin care comapny</p>
+                </div>-->
             </div>
 
             <br>
@@ -111,6 +113,17 @@
             <br>
         </div>
     </section>
-    
+
+    <!--Scripts-->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("nav");
+          if (x.className === "nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav";
+          }
+        }
+        </script>
 </body>
 </html>
