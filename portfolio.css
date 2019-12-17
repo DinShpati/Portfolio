@@ -219,7 +219,9 @@ nav a.icon {
   }
   
   @media screen and (max-width: 1185px) {
-    nav.responsive {position: relative;}
+    nav.responsive {
+        padding-top: 70px;
+    }
     nav.responsive a.icon {
       position: absolute;
       right: 0;
