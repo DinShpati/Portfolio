@@ -158,3 +158,10 @@ nav ul li a:hover{
     font-size: 15px;
     padding: 4px 0;
 }
+@media screen and (max-width: 1300px){
+    #portfolio div .container{
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        grid-gap: 20px;
+    }
+}
