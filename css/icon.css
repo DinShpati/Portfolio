@@ -1,0 +1,48 @@
+.nav-toggle {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    right: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-toggle__icon {
+    top: 28px;
+    left: 15px;
+}
+.nav-toggle__icon, .nav-toggle__icon:after, .nav-toggle__icon:before {
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 2px;
+}
+.nav-toggle__icon:before, .nav-toggle__icon:after {
+    transition: all 0.5s ease;
+}
+.nav-toggle__icon:before {
+    top: 9px;
+}
+.nav-toggle__icon:after {
+    top: -9px;
+}
+.nav-toggle__icon.closeIcon {
+    visibility: hidden;
+}
+.nav-toggle__icon.closeIcon:before, .nav-toggle__icon.closeIcon:after {
+    visibility: visible;
+}
+.nav-toggle__icon.closeIcon:before {
+    transform: translateY(-9px) rotate(45deg);
+}
+.nav-toggle__icon.closeIcon:after {
+    transform: translateY(9px) rotate(-45deg);
+}
+@media screen and (max-width: 500px){
+    .nav-toggle{
+        right: 50px;
+    }
+}

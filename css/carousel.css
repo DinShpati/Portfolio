@@ -1,0 +1,92 @@
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: transparent;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    animation: fade_in_show 0.5s
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 20%;
+    padding: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    user-select: none;
+    border: 2px solid transparent;
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+    border-radius: 1px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+  }
+  .prev {
+    position: absolute;
+    left: 0;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover{
+    background-color: rgba(73, 73, 73, 0.8);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px 0 0 20px;
+  }
+  .next:hover {
+    background-color: rgba(73, 73, 73, 0.8);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 0 20px 20px 0;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      margin-top: 150px;
+      background: transparent;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    -webkit-transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+  @media screen and (max-width: 500px){
+    .dot-container{
+      margin-top: 250px;
+    }
+  }

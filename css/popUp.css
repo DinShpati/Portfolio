@@ -1,0 +1,112 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 80%;
+  height: 80%;
+  position: relative;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: 'Kulim Park';
+}
+.popup .skillheader{
+  color: #363636;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: rgb(45, 153, 241);
+}
+.popup .content {
+  overflow: auto;
+  text-align: center;
+  padding: 40px 0;
+}
+.popup .content a{
+  float: center;
+}
+.view{
+  text-decoration: none;
+  color: #363636;
+  font-weight: 600;
+  background-color: #3ca3df;
+  padding: 12px 14px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  margin-right: 25px;
+  transition: all ease-in-out .4s;
+}
+.view:hover{
+  background-color: #2b7caa;
+  color: #424242;
+  border-radius: 10px;
+  border: 2px solid #424242;
+}
+.code{
+  text-decoration: none;
+  color: #363636;
+  font-weight: 600;
+  background-color: #3cdf5f;
+  padding: 12px 14px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin-right: 25px;
+  transition: all ease-in-out .4s;
+}
+.code:hover{
+  background-color: #2db84b;
+  color: #424242;
+  border-radius: 10px;
+  border: 2px solid #424242;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+    overflow: scroll;
+  }
+}
+@media screen and (max-width: 1024px){
+  .popup{
+    overflow: scroll;
+  }
+}
+@media screen and (max-width:500px){
+  .view, .code{
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+}

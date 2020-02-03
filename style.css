@@ -1,0 +1,414 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation section */
+#navbar{
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    padding: 20px 10% 0 10%;
+    justify-content: space-between;
+    animation: fade_in_show 1s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.sticky {
+    position: fixed !important;
+    z-index: 9998;
+    animation: fade_in_show 1s;
+    background-color: #2c2c2c42;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 580;
+    font-family: 'Kulim Park', sans-serif;
+}
+.hamburger{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 580;
+    font-family: 'Kulim Park', sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+.subh1{
+    color: rgba(114, 114, 114, 0.863);
+    font-size: .8rem;
+}
+.nav{
+    text-align: center;
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 90px;
+    left: 0;
+    background: #0e0e0eee;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 10;
+    padding: 10px 0;
+}
+.nav ul{
+    display: inline;
+    list-style: none;
+}
+.nav ul li{
+    width: inherit;
+    padding: 0 20%;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+    margin: 10px 0 0 0;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: ease-in .3s;
+}
+.nav ul li a:hover{
+    display: block;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+/* Buttons */
+.btn1{
+    color: white;
+    font-family: 'Kulim Park', sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 12px 14px;
+    border: 2px solid white;
+    margin: 10px;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+}
+.btn1:hover{
+    background-color: rgb(255, 253, 249);
+    color: #1f1f1f;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.btnSubmit{
+    color: white;
+    font-family: 'Kulim Park', sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    width: 100%;
+    margin: 0 0 0 2.3%;
+    background-color: #0e0e0e;
+    padding: 12px 14px;
+    border: 2px solid transparent;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+}
+.btnSubmit:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.button {
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+}
+.button-2 {
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #08affd;
+    background-image: -webkit-linear-gradient(30deg, #08affd 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #08affd 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 600ms ease-in-out;
+    transition: background 600ms ease-in-out;
+}
+.button-2:hover {
+    background-position: 100%;
+    color: #08affd;
+}
+
+.blue{
+    color: #08affd !important;
+}
+.gray{
+    color: #363636 !important;
+}
+.blackclr{
+    color: white !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.social-Media-btn{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.social-Media-btn:hover{
+    color: rgb(231, 231, 231);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+/* Text and headers */
+
+.iconBG{
+    font-size: 50px;
+    color: #3ca3df;
+    font-weight: 400;
+}
+.h1{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Raleway', 'Open Sans', 'Kulim Park';
+}
+.h1animation{
+    animation: fade_in_show 1s;
+}
+.h4{
+    font-size: 1.3rem;
+    color: rgb(218, 218, 218);
+    font-family: 'Raleway', 'Open Sans', 'Kulim Park';
+}
+.p{
+    font-size: 20px;
+    color: rgb(196, 196, 196);
+    font-family: 'Kulim Park', 'Open Sans';
+    text-align: left;
+}
+.p-sm{
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+    font-family: 'Kulim Park', 'Open Sans';
+    text-align: left;
+}
+.skillheader{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+    transition: ease-in-out .2s;
+    -webkit-transition: ease-in-out .2s;
+    text-decoration: none;
+    padding: 10px;
+}
+.skillheader:hover{
+    cursor: pointer;
+    color: #bbbbbb;
+    transform: scale(1.1);
+}
+
+/* Images */
+
+.skillImg{
+    max-width: 50px;
+}
+
+
+/* Borders and underlines*/
+.border-right{
+    border-right: 2px solid transparent;
+    padding-right: 30px;
+}
+.p-underline{
+    text-decoration: underline;
+    text-decoration-color: #3ca3df8f;
+    line-height: 30px;
+}
+
+/* SVGS */
+.svgcolor-light{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Section #1 */
+#section1{
+    background: url("img/bg.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 100px 10% 0 10%;
+}
+.contactAndViewMyWork{
+    display:flex; 
+    margin-left: 34.5%; 
+    margin-top: 60px;
+}
+.goUp{
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 2000;
+}
+.goUp a{
+    color: white;
+    font-size: 30px;
+    background-color: #3ca3df;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+}
+.goUp a:hover{
+    border: 2px solid white;
+    background-color: #338cc0;
+}
+
+/* Inputs */
+.input{
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px;
+    background-color: #0e0e0e;
+    border: 1px solid rgb(56, 56, 56);
+    caret-color: rgb(255, 255, 255);
+    font-size: 18px;
+    color: white;
+}
+input:focus, textarea {
+    outline: none !important;
+}
+.input {
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border-bottom:1px solid transparent;
+}
+.input:focus{
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+
+/* Scetion #2 */
+#section2{
+    background: url("img/deviceTiles.png");
+    /* background: linear-gradient(#0e0e0e, #1f1f1f);*/
+    padding: 80px 10%; 
+    overflow: hidden;
+    border-top: 5px solid #3ca3df;
+}
+
+/* section 3 */
+#section3{
+    padding: 80px 10% 200px 10%; 
+    background: linear-gradient(#0e0e0e, #2c2c2c, #1f1f1f);
+    border-top: 5px solid #3ca3df;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+/* Scetion 4 */
+#section4{
+    padding: 80px 5% 200px 5%;
+    text-align: center;
+}
+
+/* Section 5 */
+#section5{
+    position: relative;
+    padding: 10% 20% 150px 20%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #1b1b1b;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 60px 10%;
+    background-color: #1B242f;
+}
+.socialMediBtnContainer{
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 1300px){
+    .nav{
+        overflow-y: scroll;
+    }
+}
+@media screen and (max-width: 1024px){
+    .contactAndViewMyWork{
+        margin-left: 25%; 
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 500px){
+    #section1{
+        padding-top: 150px;
+    }
+    .h1{
+        font-size: 2rem;
+    } 
+    .socialSection1{
+        margin: 20px 0 0 20px !important;
+    }
+    .contactAndViewMyWork{
+        width: 100%;
+        margin: 50px 5%;
+    }
+    .btn1:nth-of-type(1){
+        font-size: 1rem;
+        padding: 10px 14px;
+        width: 29%;
+    }
+    .btn1:nth-of-type(2){
+        font-size: .8rem;
+        padding: 12px 14px;
+        width: 36%;
+    }
+    .skillheader{
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        float: left;
+        transition: ease-in-out .2s;
+        -webkit-transition: ease-in-out .2s;
+        text-decoration: none;
+        padding: 10px;
+    }
+    #section5{
+        padding: 25% 20% 150px 20%;
+    }
+}
