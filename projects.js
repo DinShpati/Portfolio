@@ -7,8 +7,8 @@ var projects = [
         image: "projectImgs/nesb.png",
         desc: "Ecommerce website made for New England Shea Butter, LLC.",
         whatIUsed: ["HTML5", "CSS3", "Javascript", "PHP", "MySQL", "PayPal Api", "Jquery", "Bootstrap"],
-        view: "nesheabutter.com",
-        code: "https://nesheabutter.com/"
+        view: "https://nesheabutter.com",
+        code: "view-source:https://nesheabutter.com/"
     },
     {
         name: "WXY Movies",
