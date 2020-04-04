@@ -11,6 +11,14 @@ var projects = [
         code: "view-source:https://nesheabutter.com/"
     },
     {
+        name: "COVID-19 Tracker",
+        image: "projectImgs/covid-19.png",
+        desc: "This is a covid-19 application that provides free opensource information regarding covid-19. The covid-19 data in this application is sourced from The Center for Systems Science and Engineering at John Hopkins University which is accessed through a Application Programming Interface (API) provided by @mathdroid.",
+        whatIUsed: ["HTML5", "CSS3", "Javascript", "REACT", "FECTH API", "MapBox", "Postman"],
+        view: "http://covid19.dinshpati.com/#/",
+        code: "https://github.com/DinShpati/covid-19"
+    },
+    {
         name: "WXY Movies",
         image: "projectImgs/wxymovies.png",
         desc: "This is a fully responsive landing page for a movies website.",
@@ -33,6 +41,14 @@ var projects = [
         whatIUsed: ["HTML5", "CSS3", "Javascript", "Jquery"],
         view: "https://dinshpati.github.io/CheapFlightFinder/",
         code: "https://github.com/DinShpati/CheapFlightFinder"
+    },
+    {
+        name: "GAOTek, Excel Generator",
+        image: "projectImgs/gaotek.png",
+        desc: "We are creating a program that takes user inputs and generates a amazon excel sheet that can be uploaded to amazon and automatically create a product lisitng.",
+        whatIUsed: ["HTML5", "CSS3", "Javascript", "PHP", "Composer", "Bootstrap"],
+        view: "https://github.com/scalable-system/project22",
+        code: "https://github.com/scalable-system/project22"
     },
     {
         name: "Pazzam",
