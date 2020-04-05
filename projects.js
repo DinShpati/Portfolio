@@ -12,7 +12,7 @@ var projects = [
     },
     {
         name: "COVID-19 Tracker",
-        image: "projectImgs/covid-19.png",
+        image: "projectImgs/covid-19.PNG",
         desc: "This is a covid-19 application that provides free opensource information regarding covid-19. The covid-19 data in this application is sourced from The Center for Systems Science and Engineering at John Hopkins University which is accessed through a Application Programming Interface (API) provided by @mathdroid.",
         whatIUsed: ["HTML5", "CSS3", "Javascript", "REACT", "FECTH API", "MapBox", "Postman"],
         view: "http://covid19.dinshpati.com/#/",
@@ -44,7 +44,7 @@ var projects = [
     },
     {
         name: "GAOTek, Excel Generator",
-        image: "projectImgs/gaotek.png",
+        image: "projectImgs/gaotek.PNG",
         desc: "We are creating a program that takes user inputs and generates a amazon excel sheet that can be uploaded to amazon and automatically create a product lisitng.",
         whatIUsed: ["HTML5", "CSS3", "Javascript", "PHP", "Composer", "Bootstrap"],
         view: "https://github.com/scalable-system/project22",
