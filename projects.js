@@ -73,7 +73,15 @@ var projects = [
         whatIUsed: ["HTML5", "CSS3", "Javascript"],
         view: "https://dinshpati.github.io/NorwalkCC-Final/index.html",
         code: "https://github.com/DinShpati/NorwalkCC-Final"
-    }
+    },
+    {
+        name: "EasyBank Landing Page",
+        image: "projectImgs/EasyBank.jpg",
+        desc: "This was a front-end coding challenge by frontendmentor.io",
+        whatIUsed: ["HTML5", "CSS3", "Javascript"],
+        view: "https://dinshpati.github.io/EasyBank-Landing-Page/",
+        code: "https://github.com/DinShpati/EasyBank-Landing-Page"
+    },
 ];
 
 //Project List
